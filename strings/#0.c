@@ -1,5 +1,5 @@
-/*ler uma string da entrada padrão e escrevê-la na saída padrão ao contrário 
-(do final para o início), de forma similar ao comando rev do shell UNIX*/
+/*Ler uma string da entrada padrão e escrevê-la na saída padrão ao contrário 
+(do final para o início), de forma similar ao comando rev do shell UNIX.*/
 
 #include <stdio.h>
 #include <string.h>

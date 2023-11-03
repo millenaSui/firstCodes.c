@@ -1,5 +1,5 @@
-/*converter as letras de uma string em minúsculas 
-(dica: estude a estrutura da tabela ASCII antes de implementar)*/
+/*Converter as letras de uma string em minúsculas (dica: 
+estude a estrutura da tabela ASCII antes de implementar).*/
 
 #include <stdio.h>
 #include <string.h>
@@ -20,7 +20,6 @@ int main() {
     }
 
     printf("\nA string modificada é:\n%s\n\n", string);
-
-
+    
     return 0;
 }

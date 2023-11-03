@@ -1,4 +1,4 @@
-/*calcular o tamanho de uma string (sem usar strlen)*/
+/*Calcular o tamanho de uma string (sem usar strlen).*/
 
 #include <stdio.h>
 #include <string.h>

@@ -1,4 +1,4 @@
-/*Remover de uma string os caracteres que não sejam letras, números ou espaço, sem usar string auxiliar.*/
+/*Remover de uma string caracteres repetidos em sequência (rr, ss, ee, etc), sem usar string auxiliar.*/
 
 #include <stdio.h>
 #include <string.h>
@@ -15,7 +15,7 @@ int main() {
 
     int i = 0;
     while (string[i] != '\0') {
-        if (string[i] < 32 || string[i] > 32 && string[i] < 48 || string[i] > 57 && string[i] < 65 || string[i] > 90 && string[i] < 97 || string[i] > 122) {
+        if (string[i+1] == string[i]) {
             int j = i;
             for (int j = i; j < tam; j++)
                 string[j] = string[j+1];
